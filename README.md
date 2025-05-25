@@ -6,7 +6,7 @@ Note that Slack is not required at all for this integration to work.
 ## Installation
 1. Apps -> Discover Apps -> Custom App
     - Enter an Application Name, e.g. "truenas-ntfy"
-    - _Image Repository_: ghcr.io/segelkma/ntfy-gotify-adapter
+    - _Image Repository_: ghcr.io/segelkma/truenas-ntfy-adapter
     - _Image Tag_: main
     - Environment Variables:
         - _Name_: NTFY\_URL
