@@ -50,7 +50,7 @@ async def on_message(request):
 # Send an arbitrary alert to gotify
 async def send_ntfy_message(message, token, title=None, priority=None):
     # Set token through header
-    headers = {"Authorization": "Basic " + token}
+    headers = {"Authorization": "Bearer " + token}
     
     # Optional ntfy features
     if title:
